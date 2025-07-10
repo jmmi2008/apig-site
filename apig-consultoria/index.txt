@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>APIG Consultoria</title>
+  <style>
+    :root {
+      --primary-color: #006400;
+      --bg-color: #0d0d0d;
+      --text-color: #f0f0f0;
+      --accent-color: #1aaf5d;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto 40px;
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    }
+
+    h1 {
+      color: var(--accent-color);
+      font-size: 2.5rem;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: var(--accent-color);
+      margin-top: 40px;
+    }
+
+    p, li {
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      color: var(--accent-color);
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    a.back-link:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>APIG Consultoria</h1>
+
+    <p>A <strong>APIG Consultoria</strong> representa a dimensão aplicada da nossa academia, canalizando o conhecimento técnico acumulado para oferecer serviços de qualidade em projetos geofísicos. Somos uma equipa multidisciplinar de estudantes, técnicos e professores, comprometidos com a excelência científica e a resolução de problemas reais.</p>
+
+    <h2>Áreas de Especialização</h2>
+    <ul>
+      <li><strong>Processamento sísmico:</strong> Análise de qualidade, empilhamento, migração e correções</li>
+      <li><strong>Interpretação sísmica:</strong> Estrutural, estratigráfica e atributos geofísicos</li>
+      <li><strong>Integração poço-sísmica:</strong> Amarração sísmica, wavelets sintéticas e análise de logs</li>
+      <li><strong>Modelação geológica:</strong> Criação de modelos 2D/3D integrando dados diversos</li>
+    </ul>
+
+    <h2>Serviços Académicos e Profissionais</h2>
+    <ul>
+      <li>Mentoria em interpretação sísmica</li>
+      <li>Apoio a projectos académicos e TFCs</li>
+      <li>Consultoria para startups e PME’s do sector geológico</li>
+      <li>Oficinas de formação com software real</li>
+    </ul>
+
+    <h2>Softwares Utilizados</h2>
+    <ul>
+      <li>OpendTect</li>
+      <li>GeoTeric</li>
+      <li>Petrel</li>
+      <li>WellCAD</li>
+      <li>ObsPy (Python para sismologia)</li>
+    </ul>
+
+    <a class="back-link" href="../apig-site.html">← Voltar para o site principal</a>
+  </div>
+</body>
+</html>
